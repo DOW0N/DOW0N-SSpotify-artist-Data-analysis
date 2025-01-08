@@ -5,8 +5,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
 
-client_id = '8a791f98f5044fa896dc2430d570500c'
-client_secret = '7976fc4cecd94f9e9761bf4fe30c4df1'
+client_id = '          '
+client_secret = '             '
 
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=client_id,
                                                            client_secret=client_secret))
